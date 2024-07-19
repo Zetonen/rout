@@ -1,4 +1,4 @@
-// import { GlobalStyled } from "../../GlobalStyle.styled";
+import { GlobalStyled } from "../../GlobalStyle.styled";
 import { Layout } from "../Layout/Layout";
 import { CardsList } from "../genres/CardsList/CardsList";
 import { FilmPage } from "../pages/FilmPage/FilmPage";
@@ -19,7 +19,7 @@ export function App() {
           <Route path="*" element={<div>404 ERROR</div>} />
         </Route>
       </Routes>
-      {/* <GlobalStyled /> */}
+      <GlobalStyled />
     </>
   );
 }
