@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.20",
+    "@fontsource/modak": "^5.0.13",
+    "@fontsource/roboto": "^5.0.13",
     "@reduxjs/toolkit": "^2.2.6",
     "axios": "^1.7.2",
     "modern-normalize": "^2.0.0",
